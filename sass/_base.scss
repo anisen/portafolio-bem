@@ -1,0 +1,108 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+}
+//menu
+header{
+	background-color:#f04949;
+	width:100%;
+	height:80px;
+}
+
+.header__menu{
+	margin:0;
+	margin-left:30%;
+	padding-top:25px;
+}
+.header__menu__li{
+	width:100px;
+	display:inline-block;
+	padding-left:20px;
+}
+.header__menu__li:hover{
+	background-color:$azul;
+	border-radius:18px;
+	padding:8px;
+}
+.header__menu__li__link{
+	color:$white;
+	text-align: center;
+	padding: 8px;
+	margin-top: 17px;
+	color: white;
+	text-decoration: none;
+}
+//informacion
+.info{
+	background-color:$azul;
+	height:500px;
+	width:100%;
+}
+
+//circulo
+.info__conten__mini{
+	margin:0;
+	padding-top:36%;
+}
+.info__conten{
+	width:250px;
+	height:250px;
+	background-color:$white;
+	text-align:center;
+	border-radius:50%;
+	position:relative;
+	left:30%;
+	top:50px;
+	color:$azul;
+	font-size:30px;
+}
+//
+.info__contenido{
+	width:30%;
+	position:relative;
+	left:50%;
+	bottom:230px;
+}
+.info__contenido__name{
+	color:$verde;
+	font-size:30px;
+}
+.info__contenido--blanco{
+	color:$white;
+}
+.info__contenido__boton{
+	background-color:$verde;
+	color:$white;
+	padding:20px;
+	border-radius:6px;
+	border-style:none;
+}
+//redes sociales
+.info__redes{
+	display:inline-block;
+}
+.info__redes--tamano{
+	font-size:20px;
+	color:$white;
+	padding:23px;
+	width:20px;
+}
+.info__redes__face{
+	background-color:#5173b6;
+}
+.info__redes__twi{
+	background-color:#3ca4d2;
+}
+.info__redes__goog{
+	background-color:#c2564b;
+}
+.info__redes__pin{
+	background-color:#9f2d35;
+}
+.info__redes__stum{
+	background-color:#d25535;
+}
+.info__redes__dri{
+	background-color:#cc5c8b;
+}
